@@ -1,0 +1,299 @@
+{
+  "countries": [
+    {     
+        "id": 1,
+        "continent": 1,
+        "visited": true,
+        "name": "Italy",
+        "img": "it.png",
+        "code": "it",
+        "cities": [
+          {
+            "name": "Rome"
+          },
+          {
+            "name": "Turin"
+          },
+          {
+            "name": "Verona"
+          },
+          {
+            "name": "Venice"
+          },
+          {
+            "name": "Padua"
+          },
+          {
+            "name": "Pisa"
+          },
+          {
+            "name": "Firenze"
+          }
+        ]      
+    },
+    {     
+        "id": 2,
+        "continent": 1,
+        "visited": true,
+        "name": "Germany",
+        "img": "de.png",
+        "code": "de",
+        "cities": [
+          {
+            "name": "Munich"
+          },
+          {
+            "name": "Augsburg"
+          }
+        ]      
+    },
+    {     
+        "id": 3,
+        "continent": 1,
+        "visited": true,
+        "name": "Albania",
+        "img": "al.png",
+        "code": "al",
+        "cities": [
+          {
+            "name": "Most of the Cities"
+          }
+        ]      
+    },
+    {     
+        "id": 4,
+        "continent": 1,
+        "visited": true,
+        "name": "Slovenia",
+        "img": "sl.png",
+        "code": "si",
+        "cities": [
+          {
+            "name": "Ljubljana"
+          }
+        ]      
+    },
+    {
+        "id": 5,
+        "continent": 1,
+        "visited": true,
+        "name": "Croatia",
+        "img": "hr.png",
+        "code": "hr",
+        "cities": [
+          {
+            "name": "Dubrovnik"
+          },
+          {
+            "name": "Split"
+          },
+          {
+            "name": "Zagreb"
+          }
+        ]
+    },
+    {
+        "id": 6,
+        "continent": 1,
+        "visited": true,
+        "name": "Austria",
+        "img": "at.png",
+        "code": "at",
+        "cities": [
+          {
+            "name": "Vienna"
+          },
+          {
+            "name": "Salsburg"
+          },
+          {
+            "name": "Hallstat"
+          }
+        ]
+    },
+    {
+        "id": 7,
+        "continent": 1,
+        "visited": true,
+        "name": "Greece",
+        "img": "gr.png",
+        "code": "gr",
+        "cities": [
+          {
+            "name": "Athens"
+          },
+          {
+            "name": "Santorini"
+          },
+          {
+            "name": "Aegina"
+          },
+          {
+            "name": "Hydra"
+          },
+          {
+            "name": "Poros"
+          }
+        ]
+    },
+    {
+        "id": 8,
+        "continent": 1,
+        "visited": true,
+        "name": "Netherlands",
+        "img": "nl.png",
+        "code": "nl",
+        "cities": [
+          {
+            "name": "Amsterdam"
+          },
+          {
+            "name": "Rotterdam"
+          },
+          {
+            "name": "Eindhoven"
+          },
+          {
+            "name": "The Hague"
+          },
+          {
+            "name": "Haarlem"
+          },
+          {
+            "name": "Utrecht"
+          },
+          {
+            "name": "Zaandam"
+          }
+        ]
+    },
+    {
+        "id": 9,
+        "continent": 1,
+        "visited": true,
+        "name": "Belgium",
+        "img": "be.png",
+        "code": "be",
+        "cities": [
+          {
+            "name": "Brussels"
+          }
+        ]
+    },
+    {
+        "id": 10,
+        "continent": 1,
+        "visited": true,
+        "name": "Romania",
+        "img": "ro.png",
+        "code": "ro",
+        "cities": [
+          {
+            "name": "Cluj-Napoca"
+          }
+        ]
+    },
+    {
+        "id": 11,
+        "continent": 1,
+        "visited": true,
+        "name": "Hungary",
+        "img": "hu.png",
+        "code": "hu",
+        "cities": [
+          {
+            "name": "Budapest"
+          }
+        ]
+    },
+    {
+        "id": 12,
+        "continent": 1,
+        "visited": true,
+        "name": "Montenegro",
+        "img": "me.png",
+        "code": "me",
+        "cities": [
+          {
+            "name": "Podgorica"
+          },
+          {
+            "name": "Kolasin"
+          },
+          {
+            "name": "Kotor"
+          },
+          {
+            "name": "Budva"
+          },
+          {
+            "name": "Ulcinj"
+          }
+        ]
+    },
+    {
+        "id": 13,
+        "continent": 1,
+        "visited": true,
+        "name": "Serbia",
+        "img": "sr.png",
+        "code": "rs",
+        "cities": [
+          {
+            "name": "Belgrade"
+          },
+          {
+            "name": "Novi Sad"
+          }
+        ]
+    },
+    {
+        "id": 14,
+        "continent": 1,
+        "visited": true,
+        "name": "Kosovo",
+        "img": "ks.png",
+        "code": "xk",
+        "cities": [
+          {
+            "name": "Pristina"
+          },
+          {
+            "name": "Prizren"
+          },
+          {
+            "name": "Peje"
+          },
+          {
+            "name": "Boge"
+          }
+        ]
+    },
+    {
+        "id": 15,
+        "continent": 1,
+        "visited": true,
+        "name": "Vatican City",
+        "img": "va.jpg",
+        "code": "va",
+        "cities": [
+          {
+            "name": "Vatican City"
+          }
+        ]
+    },
+    {
+        "id": 16,
+        "continent": 1,
+        "visited": true,
+        "name": "Bosnia & Herzegovina",
+        "img": "bh.png",
+        "code": "ba",
+        "cities": [
+          {
+            "name": "Medugorje"
+          }
+        ]
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+    "continents": [
+      {"id":1,"name":"Europe","img":"eu.png", "visited": true, "total": 44 },
+      {"id":2,"name":"Asia","img":"xx.png", "visited": false, "total": 48 },
+      {"id":3,"name":"Africa","img":"xx.png", "visited": false, "total": 54 },
+      {"id":4,"name":"South America","img":"xx.png", "visited": false, "total": 33  },
+      {"id":5,"name":"North America","img":"xx.png", "visited": false, "total": 2 },
+      {"id":6,"name":"Oceania","img":"xx.png", "visited": false, "total": 14 },
+      {"id":7,"name":"Antarctica","img":"xx.png", "visited": false, "total": 1 }
+    ]
+  }
