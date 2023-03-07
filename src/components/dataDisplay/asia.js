@@ -31,7 +31,7 @@ function Asia({ continents }) {
 
                         {countries && (
                             countries.map((country, index) =>
-                                <Col className="gutter-row mb10" xs={{ span: 24 }} sm={{ span: 6 }} md={{ span: 4 }} lg={{ span: 4 }}>
+                                <Col key={index} className="gutter-row mb10" xs={{ span: 24 }} sm={{ span: 6 }} md={{ span: 4 }} lg={{ span: 4 }}>
                                     <Card size='small' title={country.name} extra={<Flag code={country.code} height="17" style={{ borderRadius: "50%" }} />}>
                                         <Collapse
                                             bordered={false}

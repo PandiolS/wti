@@ -6,24 +6,23 @@ import Flag from 'react-world-flags'
 
 const { Panel } = Collapse;
 
-function Europe({ continents }) {
+function Antarctica({ continents }) {
 
     const [countries, setCountries] = useState(countriesData.countries);
     const [continent, setContinent] = useState(null);
 
     useEffect(() => {
-        let data = countries.filter(obj => obj.continent === 1).sort((a, b) => a.name.localeCompare(b.name));
+        let data = countries.filter(obj => obj.continent === 7).sort((a, b) => a.name.localeCompare(b.name));
         setCountries(data);
-        let continentData = continents.filter(obj => obj.id === 1);
+        let continentData = continents.filter(obj => obj.id === 7);
         setContinent(continentData[0]);
     }, []);
 
     return (
-        <Card title="Countries in Europe">
+        <Card title="Countries in Antarctica">
 
             <Collapse
-                bordered={false}
-                defaultActiveKey={['1']}
+                bordered={false}                
                 expandIcon={({ isActive }) => <CaretRightOutlined rotate={isActive ? 90 : 0} />}
             >
 
@@ -70,4 +69,4 @@ function Europe({ continents }) {
 
 }
 
-export default Europe;
+export default Antarctica;
